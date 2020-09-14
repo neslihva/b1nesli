@@ -25,11 +25,11 @@ header nav li {
   min-width: 6em;
 }
 
-/*header nav a {
+header nav a {
   color:white;
   text-decoration:none;
   outline:none;
   display:block;
   line-height:3.5em;
   text-align: center;
-}/*
+}
