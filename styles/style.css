@@ -24,6 +24,4 @@ header nav ul {
 header nav li {
   flex-grow: 1;
   min-width: 6em;
-
-  
 }
