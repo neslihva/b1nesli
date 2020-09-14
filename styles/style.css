@@ -10,3 +10,20 @@ header {
   justify-content: center;
 }
 
+header nav {
+  background-color:rgba(0,0,0,.1);
+  flex-grow: 1;
+}
+
+header nav ul {    
+  margin:0; padding:0;
+  list-style:none;
+  display:flex; 
+}
+
+header nav li {
+  flex-grow: 1;
+  min-width: 6em;
+
+  
+}
