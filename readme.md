@@ -37,11 +37,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+lastig om de navigatie responsive te maken ik heb geprobeerd om de hamburger menu te maken maar is me uiteindelijk niet gelukt.
+
+Foto's met flexbox positioneren is me wel gelukt.
+
+Footer en header moet ik nog toevoegen en ook nog een e-mail form.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![voortgang](images/voortgang1.png)
+![voortgang](images/voortgang2.png)
+
 
 ### Agenda voor meeting
 
