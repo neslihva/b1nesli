@@ -1,17 +1,19 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   font-size: 20px;
   color: #FFA593;
-  font-family: Madera,sans-serif;
   font-weight: 100;
   text-align: center;
 }
+
 p {
-  font-family: Madera,sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height:1.6;
@@ -22,27 +24,39 @@ p {
 nav {
   background-color: #FFA593;
   display: flex;
-
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
 }
 
-nav ul {    
+.nav-links {    
   list-style:none;
   display: flex;
-  flex-wrap: wrap;
-  flex-grow: 0;
+  width: 100%;
+  justify-content: space-around;
 }
 
 nav li {
-  font-family: Madera,sans-serif;
 }
 
-nav a {
+.nav-links a {
   display: flex;
   color:white;
   text-decoration:none;
   outline:none;
   line-height:3.5em;
   padding: 10px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 5px;
 }
 
 .holdingcontainer{
@@ -53,14 +67,7 @@ nav a {
   flex-direction: row;
   justify-content: center;
 }
-.internalcontainerL{
-  flex: 0;
-  padding: 10px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-}
-.internalcontainerM{
+.internalcontainer{
   flex: 0;
   padding: 10px;
   font-size: 12px;
@@ -68,30 +75,7 @@ nav a {
   margin: 3px;
 }
 
-.internalcontainerR{
-  flex: 0;
-  padding: 10px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-}
-
-.internalcontainerT{
-  flex: 0;
-  padding: 10px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 3px;
-}
-.shopforL {
-  flex: 0;
-  padding: 20px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin: 10px;
-  border: 1px solid #FFA593;
-}
-.shopforR {
+.shopfor {
   flex: 0;
   padding: 20px;
   font-size: 12px;
@@ -109,10 +93,36 @@ nav a {
 }
 
 @media screen and (max-width: 768px){
+  body {
+    overflow-x: hidden;
+  }
   .holdingcontainer{
     flex-direction: column-reverse;
     align-items: center;
   }
+  .nav-links{
+    position: absolute;
+    background-color: #FFA593;
+    right: 0px;
+    height: 100%;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
 }
 
 /*.hamburger {
