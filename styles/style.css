@@ -34,6 +34,10 @@ header .website {
     display: table;
 }
 
+.shopping-cart {
+  display: none;
+}
+
 nav {
 	height: 100%;
 	background-color: #FFA593;
@@ -118,6 +122,9 @@ nav input, label {
 
     header .website {
         display: none;
+    }
+    .shopping-cart {
+      display: flex;
     }
 
 	nav {
