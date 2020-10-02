@@ -29,7 +29,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Navigatie is me gelukt om responsive te maken
+De afbeeldingen heb ik ook responsive gemaakt
+Media query heb ik goed kunnen toepassen
+
+Slider met javascript heb ik nog moeite mee
+Header website begrijp ik niet helemaal moet ik hiervoor grid gebruiken?
+
+**Screenshot(s):**
+
+![voortgang](images/header_v02.png)
+![voortgang](images/header_v02mobiel.png)
+
+Slider voorbeeld
+![voortgang](images/slider_voorbeeld.png)
+
+### Agenda voor meeting
+
+1. javascript slider & header grid vraag (nesli)
+2. vraag over de propertie; position fixed & automatische transities van afbeeldingen (stijn)
+4. vraag over media query & object-fit voor afbeeldingen snap ik niet (Tom)
+
+### verslag van meeting
 
 
 
@@ -51,11 +72,12 @@ Footer en header moet ik nog toevoegen en ook nog een e-mail form.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+1. vragen over hamburger menu
+2. 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Tip: begin bij de stukjes dat je makkelijk vind en doe de moeilijkere stukjes pas later.
 
 
 
