@@ -23,8 +23,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Vragen: 1. Hoe krijg ik de tekst onder mijn logo?
+        2. Hoe haal ik de padding-inline-start: 40 weg?
 
+Voortgang:
+
+Ik heb me website css opnieuw gemaakt omdat ik het niet handig vond om met flexbox te werken de afbeeldingen waren soms lastig om op de goeie plek te laten staan. Ik heb nu gebruik gemaakt van grid en nu ziet mijn website er veel beter uit.
+
+Verder heb ik besloten om geen javascript slide te maken omdat dat nog wel een te grote uitdaging is voor mij. Ik ga de slider alleen met css maken. Voor een js functie ben ik van plan om een darkmode knop te maken omdat ik wel weet hoe dat moet door programmeren. Ik ga de button ook leuk met css opmaken hoe Joost het bij les (weet niet meer welke) had uitgelegd.
+ 
 
 
 ## Voortgang 2 (week 5)
@@ -52,7 +59,8 @@ Slider voorbeeld
 
 ### verslag van meeting
 
-
+1. voor javascript is wel lastig dus om extra hulp vragen bij de studentassistent.
+2. header wel coderen en geen screenshot gebruiken.
 
 ## Voortgang 1 (week 3)
 
