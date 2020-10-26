@@ -22,7 +22,7 @@
           </section>
     </header>
     <nav>
-        <label for="toggle">&#9776;<span>Menu</span></label>
+        <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <ul class="nav-menu">
             <li><a href="#">NEW ITEMS</a></li>
@@ -30,16 +30,21 @@
 		    <li><a href="#">SHOP ALL</a></li>
 		    <li><a href="#">BERETS</a></li>
 		    <li><a href="#">CAPS,TOPS & TOTES</a></li>
-		    <li><a href="#">PATCHES,PINS & STICKERS</a></li>
-		    <li><a href="#">MORE</a></li>
+            <li><a href="#">PATCHES,PINS & STICKERS</a></li>
+            
+		    <li>
+                <a href="#" id="features-header">MORE ▾</a>
+                <ul class="features-dropdown">
+                  <li>Website policies</li>
+                </ul>
         </ul>
         <a class="shopping-cart" href="#" title="shopping cart">&#x1F6D2;<span>0</span></a>
     </nav>
 
-    <main class="wrapper">
-    <main>
+<main> <!--- main content -->
+    <section class="wrapper">
         <h1 class="title-1">COMING SOON!</h1>
-        <artice class="coming-soon">
+        <article class="coming-soon">
         <p>
         On 9/12 @ 2pm PST (Pacific/West Coast time) we will be restocking ALL beret designs for preorder. These preorders will be very limited, and are expected to be up for approximately 5 minutes, or until we get maxed out on orders. 
         
@@ -47,35 +52,35 @@
         
         If you have any questions, feel free to email us! Set your alarms & calendars, join our Patreon for 10% off, and follow on social media for more updates!
         </p>
-            </artice>
+            </article>
 
-    <h1 class="title-2"> IN STOCK </h1>
+    <h1 class="title-2">IN STOCK <a href="pagina2.html">More in stock ></a></h1>
         <article class="holding-container">
             <section class ="internalcontainer">
-                <img src="images/IMG_01.png" alt="beret"><p>Citrus Slice Embroidered Beret!</p>
+                <img src="images/IMG_01.png" alt="beret"><p>Animal Crossing Fruits Baseball Cap!</p>
             </section>
 
             <section class ="internalcontainer">
-                <img src="images/IMG_02.png" alt="beret"><p>Citrus Slice Embroidered Beret!</p>
+                <img src="images/IMG_02.png" alt="beret"><p>Sunflower Life Cycle Baseball Cap!</p>
             </section>
 
             <section class ="internalcontainer">
-                <img src="images/IMG_03.png" alt="beret"><p>Citrus Slice Embroidered Beret!</p>
+                <img src="images/IMG_03.png" alt="beret"><p>Citrus Kirby Vinyl Sticker!</p>
             </section>
 
             <section class ="internalcontainer">
-                <img src="images/IMG_04.png" alt="beret"><p>Citrus Slice Embroidered Beret!</p>
+                <img src="images/IMG_04.png" alt="beret"><p>Embroidered Linen Dress **LEAVE NOTE WITH DESIGN CHOICE!**</p>
             </section>
 
             <section class ="internalcontainer">
-                <img src="images/IMG_05.png" alt="beret"><p>Citrus Slice Embroidered Beret!</p>
+                <img src="images/IMG_05.png" alt="beret"><p>Animal Crossing Peach Embroidered Patch!</p>
             </section>
         </article>
 
         <h1 class="title-3">SHOP FOR</h1>
     <article class="shop-for-container">
-	    <section class ="shop-for"><img src="images/image2.png" alt="shop-for" ><p>Citrus Slice Embroidered Beret!</p></section>
-	    <section class ="shop-for"><img src="images/image2.png" alt="shop-for" ><p>Citrus Slice Embroidered Beret!</p></section>
+	    <section class ="shop-for"><img src="images/image2.png" alt="shop-for" ><p>Patches, Pins & Stickers</p></section>
+	    <section class ="shop-for"><img src="images/image2.png" alt="shop-for" ><p>Caps, Tops & Totes</p></section>
     </article>
 
      <!-- form -->
@@ -84,7 +89,7 @@
         <p>Promotions, new products and sales. Directly to your inbox. Get notified for beret restocks!        </p>
         <form action="">
             <input type="email" class="input-group-field" placeholder="E-mail">
-            <input type="submit" name="" class="form-btn" value="SUBSCRIBE">
+            <button id="submit">SUBSCRIBE</button>
         </form>
     </section>
 
@@ -93,11 +98,28 @@
         <p>Clammy Heart is a playful & colorful brand, focused on creating quality homemade embroidered patches and apparel! Inspired by fruits, veggies, flowers, and animals, you'll find cheerful iron-on patches, cute hats, vibrant t-shirts, and illustrated goodies like charms, enamel pins, and washi tape. Follow on Instagram, Twitter, Tumblr, and Patreon @clammyheart!</p>
     </article>
 
-
+</section>
 </main>
-</main>
 
-<footer></footer>
-
+<footer>
+    <section>
+        <h3>Quick links</h3>
+        <ul>
+            <li><a href="">NEW ITEMS</a></li>
+            <li><a href="">IN STOCK</a></li>
+            <li><a href="">Shop All</a></li>
+            <li><a href="">Berets</a></li>
+            <li><a href="">Caps, Tops & Totes</a></li>
+            <li><a href="">Patches, Pins & Stickers</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Shop Policies</a></li>
+        </ul>
+    </section>
+    <section>
+        <h3>Get in touch</h3>
+        <p>Feel free to email us at clammyheartinfo@gmail.com with any questions!</p>
+    </section>
+</footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
