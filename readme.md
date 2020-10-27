@@ -25,13 +25,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![eindresultaat](images/screenshot_01)
-![eindresultaat](images/screenshot_02)
-![eindresultaat](images/screenshot_03)
-![eindresultaat](images/screenshot_04)
+![eindresultaat](images/screenshot_01.jpg)
+![eindresultaat](images/screenshot_02.jpg)
+![eindresultaat](images/screenshot_03.jpg)
+![eindresultaat](images/screenshot_04.jpg)
 -- pagina 2 --
-![eindresultaat](images/screenshot_05)
-![eindresultaat](images/screenshot_06)
+![eindresultaat](images/screenshot_05.jpg)
+![eindresultaat](images/screenshot_06.jpg)
 
 
 ## Voortgang 3 (week 6)
