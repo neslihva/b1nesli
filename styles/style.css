@@ -139,6 +139,7 @@
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
   grid-template-areas:
+  'main_afbeelding'
   'title-1'
   'coming-soon'
   'title-2'
@@ -148,6 +149,16 @@
   'newsletter'
   'title-4'
   'about-clammy';
+  }
+  /* afbeelding main */
+
+  .main_afbeelding {
+  padding-top: 15px;
+  border-bottom: 1px solid #ffa593;
+  }
+
+  .main_afbeelding img {
+  width: 100%;
   }
   
   /* COMING SOON */
@@ -328,7 +339,7 @@
   
   @media only screen and (max-width: 1400px) {
   .wrapper {
-  margin: 5em;
+  margin: 1em 5em 5em 5em;
   }
   
   .holding-container {

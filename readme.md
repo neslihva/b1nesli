@@ -5,20 +5,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://codepen.io/derekfletes/pens/popular
+2. https://cssgridgarden.com/#nl
+3. https://yoksel.github.io/flex-cheatsheet/
+3. https://yoksel.github.io/grid-cheatsheet/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
++ gebruik van grid
++ gebruik van flex
+
++- Responsive ging matig: toen ik eenmaal grid ging gebruiken ging het veel makkelijker!
+
+- javascript
+- navigatie
+- slider
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+![eindresultaat](images/screenshot_01)
+![eindresultaat](images/screenshot_02)
+![eindresultaat](images/screenshot_03)
+![eindresultaat](images/screenshot_04)
+-- pagina 2 --
+![eindresultaat](images/screenshot_05)
+![eindresultaat](images/screenshot_06)
 
 
 ## Voortgang 3 (week 6)
